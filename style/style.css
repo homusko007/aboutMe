@@ -408,6 +408,11 @@ transition: height 250ms ease-out 0s;
 .portfolio-item img {
 border-radius: 20px;
 box-shadow: 0 8px 8px rgb(156 160 167 / 36%);
+background: #000;
+}
+
+.portfolio-item img:hover {
+    opacity: .6;
 }
 
 .section-services {
