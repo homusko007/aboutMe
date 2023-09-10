@@ -276,20 +276,24 @@ border: 1px solid transparent;
 .about-social-list {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
 }
 
 .social-item {
   display: inline-block;
     border-radius: 30px;
     background: #fff;
-    height: 50px;
-    width: 50px;
-    line-height: 52px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
     box-shadow: 0 4px 8px rgba(134,151,168,.1);
     color: #333;
     border: 1px solid #eee; 
-    margin-left: 0.6rem;
 }
+
 .social-item:first-child {
   width: auto;
   padding: 0 20px;
@@ -297,7 +301,7 @@ border: 1px solid transparent;
 }
 
 .download-cv {
-  font-size: 16px;
+  font-size: 24px;
     font-weight: 400;
     align-items: center;
     display: flex;
@@ -655,6 +659,7 @@ form {
 }
 
 .form-input {
+  font-size: 18px;
   padding: 15px 30px;
     height: auto;
     width: 100%;
@@ -722,7 +727,7 @@ grid-column: 1 / 3;
 }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .aside-banner {
     height: 250px;
   }
